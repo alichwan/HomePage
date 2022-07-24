@@ -6,7 +6,6 @@
 
   DeveloperStore.subscribe( data => {
     info = data;
-    console.log(info);
   });
 
 </script>
