@@ -1,5 +1,5 @@
 <header>
-  <img src="https://avatars.githubusercontent.com/u/108638091?s=400&u=fc064fc023486eda9ba1ad672261f88d9cc45e8b&v=4" alt="Foto pavel">
+  <img src="/img/fox.svg" alt="Logo de zorro">
   <h1>
     Alichwan
   </h1>
@@ -15,7 +15,9 @@
   h1{
     position: relative;
     text-align: center;
-    margin-left: 10%;
+    margin-left: 5%;
+    font-size: 50px;
+    font-family: 'Cinzel', Arial, Helvetica, sans-serif;
   }
   img {
     max-width: 100px;
