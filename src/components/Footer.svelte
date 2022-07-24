@@ -4,7 +4,7 @@
 
 <style>
   footer{
-    padding: 5% 40%;
+    padding: 5% 20%;
     text-align: center;
   }
   .copyright{

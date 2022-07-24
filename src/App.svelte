@@ -2,39 +2,31 @@
 	import Header from './components/Header.svelte';
 	import Footer from './components/Footer.svelte';
 	import Tabs from './shared/Tabs.svelte';
+	import Home from './components/Home.svelte';
 	import DataScientistTab from './components/DataScientistTab.svelte';
-	import DevTab from './components/DevTab.svelte';
+	import DeveloperTab from './components/DeveloperTab.svelte';
+	import ProjectsTab from './components/ProjectsTab.svelte';
 
 	// Tabs
-	let items = ['Data Scientist', 'Dev'];
-	let activeItem = 'Data Scientist';
+	let items = ['Home','Data Scientist', 'Developer', 'Projects'];
+	let activeItem = 'Home';
 	const tabChange = (e) => {
 		activeItem = e.detail;
 	}
 
-	const handleAdd = (e) => {
-		activeItem = 'Data Scientist';
-	};
-
 </script>
 
 <Header/>
-	<h3>Todo:</h3>
-	<ol>
-		<li>Cambiar la imagen de header</li>
-		<li>Rellenar campo DS</li>
-		<li>Rellenar campo dev</li>
-		<li>Hacer que tengan distinto color</li>
-		<li>Agregar proyectos a las pestañas</li>
-	</ol>
 	<main>
 		<Tabs {activeItem} {items} on:tabChange={tabChange}/>
-		{#if activeItem == 'Data Scientist'}
+		{#if activeItem == 'Home'}
+			<Home/>
+		{:else if activeItem === 'Data Scientist'}
 			<DataScientistTab />
-		{:else if activeItem === 'Dev'}
-			<DevTab />
-		{:else if activeItem === 'Proyectos'}
-			<p>Work in progress 🛠️</p>
+		{:else if activeItem === 'Developer'}
+			<DeveloperTab />
+			{:else if activeItem === 'Projects'}
+			<ProjectsTab />
 		{/if}
 	</main>
 <Footer/>
