@@ -1,10 +1,8 @@
 <header>
-  <a href="/">
   <img src="/img/fox.svg" alt="Logo de zorro">
   <h1>
     Alichwan
   </h1>
-  </a>
 </header>
 
 <style>
