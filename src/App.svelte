@@ -33,7 +33,7 @@
 
 <style>
 	main{
-		max-width: 70%;
+		max-width: 80%;
 		margin: 40px auto;
 	}
 </style> 

@@ -6,7 +6,7 @@
 </header>
 
 <style>
-  @media only screen and (max-width: 430px) 
+  @media only screen and (max-width: 610px) 
   {
   header{
     background: #f7f7f7;
@@ -26,9 +26,10 @@
     max-width: 70px;
   }
   }
-  @media only screen and (min-width: 431px) 
+  @media only screen and (min-width: 610px) 
   {
   header{
+    margin: 0 10%;
     background: #f7f7f7;
     padding: 10px;
     display: flex;
