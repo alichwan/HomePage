@@ -15,8 +15,8 @@
   </p>
     <ul>
       <li><strong>Datascience</strong>: Proyectos que he hecho haciendo análisis de datos y/o usando modelos de inteligencia artificial o similares.</li>
-      <li><strong>Developer</strong>: Proyectos que hecho como desarrollador, espero que siga creciendo.</li>
-      <li><strong>Proyectos</strong>: Proyectos personales. No hay mucho que mostrar pero voy a ir a agregando cosas con el tiempo</li>
+      <li><strong>Developer</strong>: Proyectos que he hecho como desarrollador, espero que siga creciendo.</li>
+      <li><strong>Proyectos</strong>: Proyectos personales. Cositas que hecho en mis ratos libres.</li>
     </ul>
 </div>
 
