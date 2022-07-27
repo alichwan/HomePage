@@ -54,6 +54,7 @@
     font-size: 18px;
     color: #555;
     cursor: pointer;
+    font-family: 'Cinzel', Arial, Helvetica, sans-serif;
   }
   .active{
     color: #d91b42;

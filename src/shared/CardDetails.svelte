@@ -7,20 +7,25 @@
   // handle details
   const handleDetails = (id) => {
     showDetails = !showDetails;
-  }
+  };
+
+  const handleBody = (text) => {
+    console.log(text);
+    return text.replace("\n","<br>");
+  };
 
 </script>
 
 <Card>
   <div class="card">
-    <h3>{ card.title }</h3>
+    <h3 class="title">{ card.title }</h3>
     <div class="answer" on:click={()=> handleDetails(card.id)}>
       {#if showDetails}
-        <span class="place">{ card.place }</span>
-        <span class="dates">{ card.dates }</span>
-        <span class="where">{ card.where }</span>
-        <span class="body">{ card.body }</span>
-        {#if card.observations.length > 0}
+        <span class="at">{ card.at }</span>
+        <span class="dates">📆 { card.dates }</span>
+        <span class="where">🌎 { card.where }</span>
+        <span class="body">{ handleBody(card.body) }</span>
+        {#if card.observations}
           <span class="observations">Observaciones: { card.observations }</span>
         {/if}
 			{:else }
@@ -52,7 +57,22 @@
   .read-more{
     color: rgb(143, 143, 143);
   }
+  .title {
+    font-family: 'Cinzel', Arial, Helvetica, sans-serif;
+  }
   .observations{
+    color: rgb(130, 130, 130);
+  }
+  .dates{
     color: rgb(170, 170, 170);
+  }
+  .where{
+    color: rgb(170, 170, 170);
+  }
+  .at {
+    font-weight: 500;
+  }
+  .body {
+    border-left: 2px solid #d91b42;
   }
 </style>

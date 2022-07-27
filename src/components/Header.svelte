@@ -17,7 +17,7 @@
   h1{
     position: relative;
     text-align: center;
-    margin-left: 5%;
+    margin-left: 7%;
     margin-right: 5%;
     font-size: 40px;
     font-family: 'Cinzel', Arial, Helvetica, sans-serif;

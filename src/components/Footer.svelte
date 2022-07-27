@@ -1,5 +1,5 @@
 <footer>
-  <div class="copyright">Made with 🦊 by Alichwan</div>
+  <div class="copyright">Made with ❤️ by Pavel</div>
 </footer>
 
 <style>

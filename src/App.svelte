@@ -8,8 +8,8 @@
 	import ProjectsTab from './components/ProjectsTab.svelte';
 
 	// Tabs
-	let items = ['Home','Data Scientist', 'Developer', 'Projects'];
-	let activeItem = 'Home';
+	let items = ['Inicio','Ciencia de Datos', 'Desarrollo', 'Proyectos'];
+	let activeItem = 'Inicio';
 	const tabChange = (e) => {
 		activeItem = e.detail;
 	}
@@ -19,13 +19,13 @@
 <Header/>
 	<main>
 		<Tabs {activeItem} {items} on:tabChange={tabChange}/>
-		{#if activeItem == 'Home'}
+		{#if activeItem == 'Inicio'}
 			<Home/>
-		{:else if activeItem === 'Data Scientist'}
+		{:else if activeItem === 'Ciencia de Datos'}
 			<DataScientistTab />
-		{:else if activeItem === 'Developer'}
+		{:else if activeItem === 'Desarrollo'}
 			<DeveloperTab />
-			{:else if activeItem === 'Projects'}
+			{:else if activeItem === 'Proyectos'}
 			<ProjectsTab />
 		{/if}
 	</main>

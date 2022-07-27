@@ -11,16 +11,17 @@
 </script>
 
 <div class="data-div">
-  <h1>Proyectos como desarollador</h1>
+  <h2>Proyectos como desarollador</h2>
   <p>
-    Estos son algunos de los proyectos que he hecho como desarrollador. 
-    Me interesa más la parte de front-end que de back-end. Sin embargo, ambas me llaman mucho la atención.
+    Estos son trabajos que he hecho como desarrollador. 
+    <br>
+    Si bien me interesa tanto el desarrollo en frontend como en backend, el primero me llama más la atención.
   </p>
   <CardsList {info}/>
 </div>
 
 <style>
-  /* .dev-div {
-    background-color: rgba(145, 213, 255, 0.2);
-  } */
+  h2 {
+    font-family: 'Cinzel', Arial, Helvetica, sans-serif;
+  }
 </style>
