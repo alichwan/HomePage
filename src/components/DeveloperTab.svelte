@@ -17,6 +17,10 @@
     <br>
     Si bien me interesa tanto el desarrollo en frontend como en backend, el primero me llama más la atención.
   </p>
+  <p class="disclaimer">Eso sí, debo pedir disculpas a cualquier senior developer que llegue a leer esto, 
+    pues definitivamente es un crimen apretar un par de teclas y decir que estoy haciendo desarrollo web. 
+    Pero eso no quita que me interese todo esto.
+  </p>
   <CardsList {info}/>
 </div>
 
@@ -24,4 +28,9 @@
   h2 {
     font-family: 'Cinzel', Arial, Helvetica, sans-serif;
   }
+
+  .disclaimer {
+    color: lightgray;
+  }
+
 </style>

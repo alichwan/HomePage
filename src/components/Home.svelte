@@ -5,8 +5,8 @@
 <div class="home-div">
   <h2>¿Qué es esto?</h2>
   <p>
-    Este es un espacio creado, en parte para jugar en lo que respecta a web, 
-    pero también presentar qué he hecho --como un CV pero con más comentarios y más interactivo.
+    Es básicamente una caja de arena para probar como es <a href="https://svelte.dev/">Svelte</a>. 
+    Además, mostrar algunas cosas, aunque no se sentirá muy distinto de un CV.
   </p>
   <h2>¿Qué vas a encontrar?</h2>
     <ul>
@@ -17,11 +17,8 @@
 </div>
 
 <style>
-  h2 {
-    font-family: 'Cinzel', Arial, Helvetica, sans-serif;
-  }
   li {
-    margin-bottom: 15px;
+    margin-bottom: 1em;
     list-style: none;
     position: relative;
     padding: 0 0 0 20px;
